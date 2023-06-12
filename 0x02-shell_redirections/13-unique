@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | umiq | grep 1
+sort | uniq -u
